@@ -56,10 +56,10 @@ export function auth(email, password, isLogin) {
             returnSecureToken: true
         }
 
-        let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA3XvQ8RftJON-GJi7GstDTYp53otVJHz0'
+        let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key='
 
         if (isLogin) {
-            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA3XvQ8RftJON-GJi7GstDTYp53otVJHz0'
+            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key='
         }
 
 
